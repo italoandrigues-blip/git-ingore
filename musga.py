@@ -19,10 +19,11 @@ def write(text, speed, color):
     console.print(f"[bold {color}]{text}[/]")
     time.sleep(1)
 
+#fiz essa funçao so pra deixar o codigo bonito
 def musga():
     write("ola eu me chamo italo", 0.05, "red")
     console.print()
-    write("to testando o console", 0.05, "blue")
+    write("to testando o codigo top", 0.05, "blue")
 
 musga()
 
